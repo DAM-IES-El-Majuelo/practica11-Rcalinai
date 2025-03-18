@@ -122,3 +122,12 @@ button {
     transform: scale(1.1);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+img {
+    width: 300px; /* Ancho fijo */
+    height: 150px; /* Alto fijo */
+    object-fit: cover; /* Ajuste de imagen */
+}
