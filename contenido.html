@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Herramientas de Desarrollo Web</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <header>
+        <h1>Bienvenido a Mi Página Web</h1>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Mi Web</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">Sobre Nosotros</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contacto</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contenido.html">Información</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Título principal -->
+    <header>
+        <h1>Herramientas de Desarrollo Web</h1>
+        <nav>
+            <ul>
+                <li><a href="#herramientas">Herramientas</a></li>
+                <li><a href="#javascript">JavaScript</a></li>
+                <li><a href="#frameworks">Frameworks</a></li>
+                <li><a href="#bootstrap-vs-w3">Bootstrap vs W3.CSS</a></li>
+                <li><a href="#nodejs">Node.js en VSC</a></li>
+            </ul>
+        </nav>
+    </header>
+        
+    <!-- Sección de herramientas -->
+    <section id="herramientas">
+        <h2>Herramientas de Desarrollo de un Navegador Web</h2>
+        <p>Los navegadores modernos ofrecen una serie de herramientas de desarrollo que permiten a los desarrolladores inspeccionar, depurar, analizar el rendimiento y optimizar las páginas web para mejorar la experiencia del usuario.</p>
+        <ul>
+            <li><strong>Google Chrome DevTools:</strong> Una de las herramientas más completas para inspección y depuración. Permite ver el código fuente, inspeccionar el DOM, modificar el CSS en tiempo real, depurar JavaScript, analizar la red, los recursos, la memoria y las pestañas de rendimiento.</li>
+            <li><strong>Firefox Developer Tools:</strong> Ofrece herramientas para el análisis de rendimiento, depuración de JavaScript, inspección del DOM, visualización de las solicitudes de red y la posibilidad de simular diferentes dispositivos y entornos.</li>
+            <li><strong>Edge Developer Tools:</strong> Basado en Chromium, ofrece un conjunto de herramientas similares a las de Google Chrome, permitiendo la depuración, análisis de rendimiento, y personalización del estilo y estructura de las páginas web.</li>
+            <li><strong>Safari Web Inspector:</strong> Exclusivo para macOS y dispositivos iOS, proporciona herramientas similares para la inspección de páginas web, depuración de JavaScript, y análisis de rendimiento en entornos de Apple.</li>
+        </ul>
+    </section>
+    
+    <!-- Sección de JavaScript -->
+    <section id="javascript">
+        <h2>JavaScript</h2>
+        <p>JavaScript es un lenguaje fundamental en el desarrollo web, ampliamente utilizado tanto en el lado del cliente como en el servidor. Algunas de sus características clave incluyen:</p>
+        <ul>
+            <li><strong>Manipulación del DOM (Document Object Model):</strong> Permite modificar dinámicamente los elementos y la estructura de una página web.</li>
+            <li><strong>Soporte para asincronía:</strong> Utiliza promesas, async/await, y callbacks para ejecutar operaciones sin bloquear la ejecución del hilo principal.</li>
+            <li><strong>Uso en el lado del cliente y del servidor:</strong> Se utiliza tanto para interactuar con el usuario en el navegador (frontend) como para gestionar el servidor y las bases de datos (backend), especialmente con tecnologías como Node.js.</li>
+            <li><strong>Ecosistema extenso con npm (Node Package Manager):</strong> Una plataforma que permite la gestión de bibliotecas y herramientas, proporcionando miles de paquetes para facilitar el desarrollo.</li>
+        </ul>
+    </section>
+    
+    <!-- Sección de frameworks -->
+    <section id="frameworks">
+        <h2>Frameworks Usados en Entornos HTML</h2>
+        <h3>Frameworks de CSS/UI</h3>
+        <ul>
+            <li><strong>Bootstrap:</strong> Un framework que utiliza un sistema de rejillas (grid system) y una variedad de componentes predefinidos para construir interfaces web de manera rápida. Ofrece plantillas de diseño para botones, formularios, barras de navegación, etc.</li>
+            <li><strong>Tailwind CSS:</strong> Un framework de utilidades que permite un control más detallado sobre el diseño mediante clases CSS de bajo nivel. Es ideal para desarrolladores que prefieren construir sus diseños a medida sin tener que sobrecargar el código con componentes predefinidos.</li>
+        </ul>
+        
+        <h3>Frameworks de Componentes (HTML + JS)</h3>
+        <ul>
+
+                    <li><strong>jQuery UI:</strong> Extiende la biblioteca jQuery, proporcionando una colección de widgets, efectos y herramientas interactivas que facilitan la creación de interfaces ricas.</li>
+                    <li><strong>Materialize:</strong> Basado en Material Design, ofrece una colección de componentes y estilos visuales para crear aplicaciones con un diseño consistente y moderno.</li>
+                </ul>
+            </section>
+            
+            <!-- Sección de frameworks Node.js -->
+            <section id="frameworks-nodejs">
+                <h2>Frameworks Usados en Entornos Node.js</h2>
+                <h3>Frontend</h3>
+                <ul>
+                    <li><strong>React.js:</strong> Una biblioteca para construir interfaces de usuario interactivas mediante componentes. Permite crear aplicaciones de una sola página (SPA) con un enfoque declarativo.</li>
+                    <li><strong>Vue.js:</strong> Un framework progresivo para construir interfaces de usuario. Facilita la integración incremental en proyectos existentes y es conocido por su simplicidad y flexibilidad.</li>
+                    <li><strong>Angular:</strong> Un framework completo para construir aplicaciones web escalables, desarrollado por Google. Ofrece soluciones para la gestión del estado, el enrutamiento y la manipulación de formularios, entre otros.</li>
+                    <li><strong>Svelte:</strong> Un framework que convierte el código en un código altamente optimizado de JavaScript, eliminando la necesidad de un framework pesado en el navegador.</li>
+                    <li><strong>Next.js:</strong> Un framework basado en React para la creación de aplicaciones web del lado del servidor (SSR), con soporte para la generación de sitios estáticos (SSG) y enrutamiento dinámico.</li>
+                </ul>
+                
+                <h3>Backend</h3>
+                <ul>
+                    <li><strong>Node.js + Express.js:</strong> Node.js es un entorno de ejecución JavaScript en el servidor, mientras que Express.js es un framework minimalista para crear aplicaciones web y APIs.</li>
+                    <li><strong>Spring Boot:</strong> Un framework de Java basado en el ecosistema Spring, muy utilizado para construir aplicaciones web robustas y escalables.</li>
+                    <li><strong>Django:</strong> Un framework de Python para el desarrollo de aplicaciones web rápido y seguro, con una gran cantidad de características integradas como la autenticación y el enrutamiento.</li>
+                    <li><strong>NestJS:</strong> Un framework basado en TypeScript que utiliza una arquitectura modular para crear aplicaciones del lado del servidor escalables y de alto rendimiento.</li>
+                    <li><strong>Laravel:</strong> Un framework PHP que sigue el patrón de diseño MVC, facilitando la creación de aplicaciones web robustas, con un enfoque en la sintaxis expresiva y la facilidad de uso.</li>
+                </ul>
+            </section>
+            
+            <!-- Sección de comparativa Bootstrap vs W3.CSS -->
+            <section id="comparativa-bootstrap-w3css">
+                <h2>Bootstrap vs W3.CSS</h2>
+                <p>Bootstrap: Proporciona una amplia gama de componentes predefinidos (como botones, formularios, barras de navegación, etc.) y un sistema de rejillas que facilita la construcción de diseños receptivos. Es más pesado y personalizable, lo que significa que se pueden realizar ajustes para adaptarlo a proyectos específicos.</p>
+                <p>W3.CSS: Es más ligero y fácil de usar en comparación con Bootstrap. Se enfoca en la simplicidad y ofrece un conjunto básico de herramientas para crear interfaces web sencillas y elegantes, sin la complejidad de otros frameworks.</p>
+            </section>
+            
+            <!-- Sección de NodeJS en Visual Studio Code -->
+            <section id="nodejs-vscode">
+                <h2>NodeJS en Visual Studio Code</h2>
+                <p>Para trabajar con Node.js en Visual Studio Code (VSC), sigue estos pasos:</p>
+                <ol>
+                    <li>Instalar Node.js y npm: Asegúrate de tener Node.js y npm instalados en tu máquina, ya que npm es el gestor de paquetes de Node.js.</li>
+                    <li>Configurar el entorno con "Node.js Extension Pack": Instala el paquete de extensiones en VSC para facilitar el desarrollo con Node.js, que incluye herramientas como IntelliSense y depuración.</li>
+                    <li>Usar el depurador integrado: VSC tiene un depurador potente que se puede configurar para trabajar con aplicaciones Node.js, permitiendo establecer puntos de interrupción, ver variables y ejecutar código paso a paso.</li>
+                    <li>Utilizar nodemon para recargar cambios automáticamente: Instala nodemon, una herramienta que reinicia automáticamente tu servidor Node.js cada vez que detecta cambios en el código, lo que facilita el flujo de trabajo durante el desarrollo.</li>
+                </ol>
+            </section>
+    
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Mi Página Web</p>
+    </footer>
+    
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>

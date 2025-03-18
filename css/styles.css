@@ -122,28 +122,3 @@ button {
     transform: scale(1.1);
 }
 
-
-
-/* Efecto de fondo con degradado */
-body {
-    background: linear-gradient(to right, #4facfe, #00f2fe);
-    color: #333;
-}
-
-/* Efecto en los títulos */
-h1, h2 {
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
-}
-
-/* Botón con efecto */
-button {
-    background: #007bff;
-    transition: background 0.3s ease, transform 0.2s ease;
-}
-
-button:hover {
-    background: #0056b3;
-    transform: scale(1.05);
-}
