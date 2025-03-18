@@ -100,3 +100,50 @@ button {
         padding: 10px;
     }
 }
+
+
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+}
+
+
+
+/* Efecto de fondo con degradado */
+body {
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    color: #333;
+}
+
+/* Efecto en los títulos */
+h1, h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* Botón con efecto */
+button {
+    background: #007bff;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background: #0056b3;
+    transform: scale(1.05);
+}
